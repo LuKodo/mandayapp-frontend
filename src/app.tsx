@@ -1,11 +1,4 @@
-import { useEffect } from "preact/hooks";
-import { Datepicker, Input, initTE } from "tw-elements";
-
 const App = () => {
-    useEffect(() => {
-        initTE({ Datepicker, Input });
-    }, []);
-
     return (
         <div
             className="relative mb-3"
