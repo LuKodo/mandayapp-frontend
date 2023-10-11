@@ -9,11 +9,10 @@ export default function Login() {
                                 <div className="field">
                                     <label htmlFor="" className="label">Email</label>
                                     <div className="control has-icons-left">
-                                        <input type="email" placeholder="e.g. bobsmith@gmail.com" className="input"
-                                               required/>
+                                        <input type="email" placeholder="e.g. bobsmith@gmail.com" className="input" required/>
                                         <span className="icon is-small is-left">
-                                              <i className="bi bi-envelope-at-fill"></i>
-                                            </span>
+                                          <i className="bi bi-envelope-at-fill"></i>
+                                        </span>
                                     </div>
                                 </div>
                                 <div className="field">
@@ -21,8 +20,8 @@ export default function Login() {
                                     <div className="control has-icons-left">
                                         <input type="password" placeholder="*******" className="input" required/>
                                         <span className="icon is-small is-left">
-                                              <i className="bi bi-lock-fill"></i>
-                                            </span>
+                                          <i className="bi bi-lock-fill"></i>
+                                        </span>
                                     </div>
                                 </div>
                                 <div className="field">
